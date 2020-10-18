@@ -1,0 +1,77 @@
+
+
+
+
+.sign {
+    width: 1500px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.sign .sign_form {
+    width: 400px;
+    display: block;
+    margin: 0px auto;
+    padding-top: 250px;
+}
+
+.sign .sign_form h3 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.usrbox_clearfix {
+    height: 54px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.usrbox_clearfix .icon {
+    float: left;
+    height: 52px;
+    width: 45px;
+}
+
+.usrbox_clearfix .icon .icon_username {
+    height: 50px;
+    width: 45px;
+    display: inline-block;
+    background: url(../images/icon_username.png) no-repeat center;
+}
+.usrbox_clearfix .icon .icon_password {
+    height: 50px;
+    width: 45px;
+    display: inline-block;
+    background: url(../images/icon_password.png) no-repeat center;
+}
+
+.usrbox_clearfix input {
+    float: left;
+    height: 52px;
+    width: 350px;
+    font-size: 20px;
+}
+.login_link .login_forpwd a {
+    font-size: 10px;
+}
+.login_link .login_forpwd a:hover {
+    color: #c81523;
+}
+.login_link .login_help a {
+    font-size: 10px;
+}
+.login_link .login_help a:hover {
+    color: #c81523;
+}
+.login {
+    width: 400px;
+    height: 54px;
+}
+.login input {
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+}

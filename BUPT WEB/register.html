@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUPT 注册管理</title>
+    <meta name="description" content="北京邮电大学 Beijing University of Posts and Telecommunications 研究生实习实践管理平台">
+    <meta name="keywords" content="北京邮电大学，BUPT，Beijing University of Posts and Telecommunications，研究生，实习，实践，管理平台">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="shortcut icon" href="bupt.ico">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html" title="BUPT研究生实习实践管理平台"><img src="images/logo.png" alt=""></a>
+        </div>
+        <div class="fr">
+                我有账户，去<a href="index.html">登录</a>
+        </div>
+    </div>
+    <div class="w registerarea">
+        <form class="reg_form" action="">
+            <div class="phone clearfix">
+                <label for="">手机号:</label>
+                <input type="text" placeholder="请输入11位手机号">
+                <div class="error">
+                        <i class="error_phone_number_icon">
+                        </i>
+                        手机号码格式不正确，请重新输入
+                </div>
+            </div>
+            <div class="meassage clearfix">
+                <label for="">短信验证码:</label>
+               <input type="text" placeholder="请输入短信验证码">
+               <div class="error">
+                   <i class="error_message_icon">
+                   </i>
+                   验证码错误，请重新输入
+               </div>
+            </div>
+            <div class="password clearfix">
+                <label for="">登陆密码:</label>
+                <input type="text" placeholder="请设置8位密码">
+                <div class="error">
+                        <i class="error_password_icon">
+                        </i>
+                        密码不少于6位，请重新输入
+                </div>
+            </div>
+            <div class="password_confirm clearfix">
+                <label for="">确认密码:</label>
+                <input type="text" placeholder="请重新输入设置的密码">
+                <div class="error">
+                        <i class="error_password_confirm_icon">
+                        </i>
+                        密码不一致，请重新输入
+                </div>
+            </div>
+            <div class="register">
+                <input type="submit" value="注册">
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+
+    </div>
+
+
+</body>
+
+</html>

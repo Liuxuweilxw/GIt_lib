@@ -1,0 +1,21 @@
+.header {
+    position: relative;
+    width: 1500px;
+    height: 90px;
+    margin: 0 auto;
+    border-bottom: 3px solid #c81523;
+}
+
+.header .logo {
+    float: left;
+    padding-left: 10px;
+}
+.header .fr {
+    float: right;
+    padding-top: 33px;
+    padding-right: 30px;
+}
+
+.header .fr a {
+    color: red;
+}

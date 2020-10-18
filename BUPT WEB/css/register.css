@@ -1,0 +1,102 @@
+.header .login{
+    float: right;
+    padding-top: 33px;
+    padding-right: 30px;
+}
+.registerarea {
+    height: 750px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+}
+
+.reg_hd {
+    height: 42px;
+    background-color: #cccccc;
+    border-bottom: 1px solid #cccccc;
+    line-height: 42px;
+}
+.login {
+    float: right;
+    padding-right: 10px;
+}
+
+.login a {
+    color: red;
+}
+
+.reg_form {
+    width: 1000px;
+    margin: 150px auto 0;
+}
+
+.clearfix {
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.clearfix input {
+    display: inline-block;
+    width: 250px;
+    height: 49px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.clearfix  label{
+    display: inline-block;
+    width: 360px;
+    height: 49px;
+   text-align: right;
+}
+
+.clearfix .error {
+    display: inline-block;
+    height: 49px;
+    width:360px;
+}
+
+
+.error_phone_number_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.jpg) no-repeat;
+}
+
+.error_message_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.jpg) no-repeat;
+}
+
+.error_password_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.jpg) no-repeat;
+}
+
+.error_password_confirm_icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.jpg) no-repeat;
+}
+.register {
+    width: 400px;
+    height: 54px;
+    margin: 0 auto;
+}
+.register input {
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    margin: 40px auto;
+}
